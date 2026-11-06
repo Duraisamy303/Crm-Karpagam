@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Karpagam Institutions Admission CRM",
+  "description": "Enterprise Admission Management and Calling CRM for Karpagam Institutions (KAHE, KCE, KIT, Pharmacy, Nursing, Medical Sciences).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
