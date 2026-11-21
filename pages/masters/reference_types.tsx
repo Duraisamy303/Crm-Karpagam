@@ -430,7 +430,7 @@ const ReferenceTypesPage = () => {
                         className="btn-action-solid cursor-pointer"
                     >
                         <Plus className="w-4 h-4" />
-                        <span>+ Add Reference Type</span>
+                        <span>Add Reference Type</span>
                     </button>
                 </div>
             </div>

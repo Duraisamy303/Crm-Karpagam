@@ -436,7 +436,7 @@ const InstitutionsPage = () => {
                         className="btn-action-solid cursor-pointer"
                     >
                         <Plus className="w-4 h-4" />
-                        <span>+ Add Institution</span>
+                        <span>Add Institution</span>
                     </button>
                 </div>
             </div>

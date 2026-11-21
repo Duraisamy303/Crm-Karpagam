@@ -462,7 +462,7 @@ const WhatsAppTemplatesPage = () => {
                         className="btn-action-solid cursor-pointer"
                     >
                         <Plus className="w-4 h-4" />
-                        <span>+ Add Template</span>
+                        <span>Add Template</span>
                     </button>
                 </div>
             </div>

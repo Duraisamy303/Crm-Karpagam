@@ -433,7 +433,7 @@ const AdmissionStagePage = () => {
                         className="btn-action-solid cursor-pointer"
                     >
                         <Plus className="w-4 h-4" />
-                        <span>+ Add Stage</span>
+                        <span>Add Stage</span>
                     </button>
                 </div>
             </div>

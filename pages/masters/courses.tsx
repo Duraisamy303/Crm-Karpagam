@@ -450,7 +450,7 @@ const CoursesPage = () => {
                         className="btn-action-solid cursor-pointer"
                     >
                         <Plus className="w-4 h-4" />
-                        <span>+ Add Course</span>
+                        <span>Add Course</span>
                     </button>
                 </div>
             </div>

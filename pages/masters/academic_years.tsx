@@ -439,7 +439,7 @@ const AcademicYearsPage = () => {
                         className="btn-action-solid cursor-pointer"
                     >
                         <Plus className="w-4 h-4" />
-                        <span>+ Add Academic Year</span>
+                        <span>Add Academic Year</span>
                     </button>
                 </div>
             </div>
