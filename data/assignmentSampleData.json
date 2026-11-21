@@ -1,0 +1,232 @@
+{
+  "stats": {
+    "total_telecallers": 3,
+    "total_contacts": 23,
+    "assigned": 19,
+    "unassigned": 4
+  },
+  "unassignedQueue": [
+    {
+      "id": "ENQ-2026-0109",
+      "student_name": "T. Sneha",
+      "enquiry_id": "ENQ-2026-0109",
+      "phone_number": "+91 98424 77112",
+      "city": "Coimbatore",
+      "target_course": "Professional Accounting (PA)",
+      "batch": "Web_Enquiries_May_Week1.csv",
+      "imported_date": "2026-05-05",
+      "is_new": true,
+      "status": "Unassigned"
+    },
+    {
+      "id": "ENQ-2026-0110",
+      "student_name": "G. Arvind",
+      "enquiry_id": "ENQ-2026-0110",
+      "phone_number": "+91 94435 66201",
+      "city": "Coimbatore",
+      "target_course": "Information Technology",
+      "batch": "Coimbatore_Mega_Education_Fair_Leads_2026.xlsx",
+      "imported_date": "2026-05-05",
+      "is_new": true,
+      "status": "Unassigned"
+    },
+    {
+      "id": "ENQ-2026-0123",
+      "student_name": "M. Naveen Kumar",
+      "enquiry_id": "ENQ-2026-0123",
+      "phone_number": "+91 98425 61122",
+      "city": "Coimbatore",
+      "target_course": "Computer Science & Engineering",
+      "batch": "Bulk_Import_April_Round2.xlsx",
+      "imported_date": "2026-05-04",
+      "is_new": false,
+      "status": "Unassigned"
+    },
+    {
+      "id": "ENQ-2026-0124",
+      "student_name": "G. Gokulraj",
+      "enquiry_id": "ENQ-2026-0124",
+      "phone_number": "+91 99432 77011",
+      "city": "Erode",
+      "target_course": "Master of Business Administration (MBA)",
+      "batch": "Website_Direct_Enquiries.csv",
+      "imported_date": "2026-05-04",
+      "is_new": false,
+      "status": "Unassigned"
+    }
+  ],
+  "telecallerWorkloads": [
+    {
+      "id": "1",
+      "name": "P. Malathi",
+      "phone": "+91 98422 15340",
+      "status": "Active",
+      "assigned": 5,
+      "called": 5,
+      "pending": 0
+    },
+    {
+      "id": "2",
+      "name": "S. Ramesh Kumar",
+      "phone": "+91 97880 44211",
+      "status": "Active",
+      "assigned": 9,
+      "called": 6,
+      "pending": 3
+    },
+    {
+      "id": "3",
+      "name": "K. Kavitha",
+      "phone": "+91 96291 30855",
+      "status": "Active",
+      "assigned": 5,
+      "called": 1,
+      "pending": 4
+    }
+  ],
+  "telecallerAssignedContacts": {
+    "P. Malathi": [
+      {
+        "id": "ENQ-2026-0101",
+        "student_name": "K. Vignesh",
+        "enquiry_id": "ENQ-2026-0101",
+        "city": "Coimbatore",
+        "target_course": "Computer Science & Engineering",
+        "status": "Called"
+      },
+      {
+        "id": "ENQ-2026-0102",
+        "student_name": "S. Priya",
+        "enquiry_id": "ENQ-2026-0102",
+        "city": "Tiruppur",
+        "target_course": "Bachelor of Pharmacy",
+        "status": "Called"
+      },
+      {
+        "id": "ENQ-2026-0106",
+        "student_name": "A. Karthikeyan",
+        "enquiry_id": "ENQ-2026-0106",
+        "city": "Pollachi",
+        "target_course": "Artificial Intelligence & Machine Learning",
+        "status": "Called"
+      },
+      {
+        "id": "ENQ-2026-0112",
+        "student_name": "R. Keerthana",
+        "enquiry_id": "ENQ-2026-0112",
+        "city": "Pollachi",
+        "target_course": "Bachelor of Pharmacy",
+        "status": "Called"
+      },
+      {
+        "id": "ENQ-2026-0113",
+        "student_name": "M. Karthik",
+        "enquiry_id": "ENQ-2026-0113",
+        "city": "Erode",
+        "target_course": "Information Technology",
+        "status": "Called"
+      }
+    ],
+    "S. Ramesh Kumar": [
+      {
+        "id": "ENQ-2026-0103",
+        "student_name": "S. Hariharan",
+        "enquiry_id": "ENQ-2026-0103",
+        "city": "Tiruppur",
+        "target_course": "Business Administration",
+        "status": "Called"
+      },
+      {
+        "id": "ENQ-2026-0104",
+        "student_name": "M. Rajesh",
+        "enquiry_id": "ENQ-2026-0104",
+        "city": "Erode",
+        "target_course": "Computer Science & Engineering",
+        "status": "Called"
+      },
+      {
+        "id": "ENQ-2026-0108",
+        "student_name": "N. Saran",
+        "enquiry_id": "ENQ-2026-0108",
+        "city": "Coimbatore",
+        "target_course": "Biomedical Engineering",
+        "status": "Pending"
+      }
+    ],
+    "K. Kavitha": [
+      {
+        "id": "ENQ-2026-0105",
+        "student_name": "R. Pavithra",
+        "enquiry_id": "ENQ-2026-0105",
+        "city": "Salem",
+        "target_course": "B.Sc Nursing",
+        "status": "Called"
+      },
+      {
+        "id": "ENQ-2026-0107",
+        "student_name": "S. Ananya",
+        "enquiry_id": "ENQ-2026-0107",
+        "city": "Coimbatore",
+        "target_course": "MBBS",
+        "status": "Pending"
+      }
+    ]
+  },
+  "assignmentLogs": [
+    {
+      "id": "LOG-1",
+      "date": "2026-05-01",
+      "telecaller": "P. Malathi",
+      "count": 1,
+      "assigned_by": "Prof. R. Natarajan (Admin)",
+      "academic_year": "AY 2026–27",
+      "action_type": "New Assignment"
+    },
+    {
+      "id": "LOG-2",
+      "date": "2026-05-01",
+      "telecaller": "P. Malathi",
+      "count": 1,
+      "assigned_by": "Prof. R. Natarajan (Admin)",
+      "academic_year": "AY 2026–27",
+      "action_type": "New Assignment"
+    },
+    {
+      "id": "LOG-3",
+      "date": "2026-05-02",
+      "telecaller": "S. Ramesh Kumar",
+      "count": 1,
+      "assigned_by": "Prof. R. Natarajan (Admin)",
+      "academic_year": "AY 2026–27",
+      "action_type": "New Assignment"
+    },
+    {
+      "id": "LOG-4",
+      "date": "2026-05-03",
+      "telecaller": "K. Kavitha",
+      "count": 2,
+      "assigned_by": "Prof. R. Natarajan (Admin)",
+      "academic_year": "AY 2026–27",
+      "action_type": "New Assignment"
+    },
+    {
+      "id": "LOG-5",
+      "date": "2026-05-04",
+      "telecaller": "S. Ramesh Kumar",
+      "count": 1,
+      "assigned_by": "Prof. R. Natarajan (Admin)",
+      "academic_year": "AY 2026–27",
+      "action_type": "New Assignment"
+    },
+    {
+      "id": "LOG-6",
+      "date": "2026-05-05",
+      "telecaller": "P. Malathi",
+      "count": 1,
+      "assigned_by": "Prof. R. Natarajan (Admin)",
+      "academic_year": "AY 2026–27",
+      "action_type": "New Assignment"
+    }
+  ]
+}
+

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "USR-ADMIN",
+    "name": "Prof. R. Natarajan",
+    "role": "ADMIN",
+    "mobile": "+91 94432 10980",
+    "email": "admissions.director@karpagam.edu.in",
+    "workload": 0,
+    "calls_today": 0,
+    "status": "Active"
+  },
+  {
+    "id": "USR-TC-1",
+    "name": "P. Malathi",
+    "role": "TELECALLER",
+    "mobile": "+91 98422 15340",
+    "email": "malathi.p@karpagam.edu.in",
+    "workload": 5,
+    "calls_today": 8,
+    "status": "Active"
+  },
+  {
+    "id": "USR-TC-2",
+    "name": "S. Ramesh Kumar",
+    "role": "TELECALLER",
+    "mobile": "+91 97880 44211",
+    "email": "ramesh.s@karpagam.edu.in",
+    "workload": 9,
+    "calls_today": 5,
+    "status": "Active"
+  },
+  {
+    "id": "USR-TC-3",
+    "name": "K. Kavitha",
+    "role": "TELECALLER",
+    "mobile": "+91 96291 30855",
+    "email": "kavitha.k@karpagam.edu.in",
+    "workload": 5,
+    "calls_today": 4,
+    "status": "Active"
+  },
+  {
+    "id": "USR-CNS-1",
+    "name": "Dr. K. Swaminathan",
+    "role": "COUNSELLOR",
+    "mobile": "+91 98430 77123",
+    "email": "swaminathan.counsellor@karpagam.edu.in",
+    "workload": 2,
+    "calls_today": 3,
+    "status": "Active"
+  },
+  {
+    "id": "USR-TC-4",
+    "name": "M. Senthil Nathan",
+    "role": "TELECALLER",
+    "mobile": "+91 94421 88301",
+    "email": "senthil.m@karpagam.edu.in",
+    "workload": 4,
+    "calls_today": 6,
+    "status": "Active"
+  },
+  {
+    "id": "USR-CNS-2",
+    "name": "B. Priyadarshini",
+    "role": "COUNSELLOR",
+    "mobile": "+91 98425 33419",
+    "email": "priyadarshini.counsellor@karpagam.edu.in",
+    "workload": 3,
+    "calls_today": 4,
+    "status": "Active"
+  },
+  {
+    "id": "USR-TC-5",
+    "name": "R. Divya",
+    "role": "TELECALLER",
+    "mobile": "+91 97890 22345",
+    "email": "divya.r@karpagam.edu.in",
+    "workload": 6,
+    "calls_today": 7,
+    "status": "Active"
+  }
+]

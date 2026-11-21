@@ -1,0 +1,192 @@
+{
+  "counsellor": {
+    "name": "Dr. K. Swaminathan",
+    "role": "Senior Academic Counsellor",
+    "academic_year": "2026–27",
+    "institution": "Karpagam Academy of Higher Education (KAHE)",
+    "desk_title": "Academic Counselling Desk: Dr. K. Swaminathan",
+    "desk_subtitle": "Senior Academic Consultations, Merit Evaluations & Direct Spot Admissions · AY 2026–27",
+    "stats": {
+      "referred_students": 2,
+      "pending_counselling": 1,
+      "today_appointments": 1,
+      "interested_students": 15
+    }
+  },
+  "urgent_referrals": [
+    {
+      "id": "REF-001",
+      "student_id": "ENQ-2026-0101",
+      "student_name": "K. Vignesh",
+      "priority": "High",
+      "referred_by": "P. Malathi",
+      "notes": "Student waiting for 12th PCM results. Father enquired about 50% merit scholarship and AI Lab...",
+      "qualification": "12th Standard",
+      "marks": "570 / 600 (95.0%)",
+      "target_course": "Computer Science & Engineering",
+      "campus": "KAHE - Main Campus, Eachanari",
+      "mobile": "+91 98421 98210",
+      "city": "Coimbatore"
+    },
+    {
+      "id": "REF-002",
+      "student_id": "ENQ-2026-0105",
+      "student_name": "R. Pavithra",
+      "priority": "Urgent",
+      "referred_by": "K. Kavitha",
+      "notes": "95% marks in PCB. Student applied for B.Sc Nursing, seeking hostel reservation and clinical exposure...",
+      "qualification": "12th Standard",
+      "marks": "570 / 600 (95.0%)",
+      "target_course": "B.Sc Nursing",
+      "campus": "KAHE - Main Campus, Eachanari",
+      "mobile": "+91 94861 55901",
+      "city": "Salem"
+    }
+  ],
+  "scheduled_campus_visits": [
+    {
+      "id": "VISIT-001",
+      "student_id": "ENQ-2026-0101",
+      "student_name": "K. Vignesh",
+      "preferred_course": "Computer Science & Engineering (KAHE)",
+      "visit_date": "2026-05-09",
+      "visit_time": "10:30 AM",
+      "location": "Admin Block, Eachanari",
+      "status": "Confirmed"
+    },
+    {
+      "id": "VISIT-002",
+      "student_id": "ENQ-2026-0105",
+      "student_name": "R. Pavithra",
+      "preferred_course": "B.Sc Nursing (KAHE)",
+      "visit_date": "2026-05-10",
+      "visit_time": "11:00 AM",
+      "location": "Admin Block, Eachanari",
+      "status": "Confirmed"
+    }
+  ],
+  "queue_items": [
+    {
+      "id": "CQ-001",
+      "enquiry_id": "ENQ-2026-0101",
+      "student_name": "K. Vignesh",
+      "mobile": "+91 98421 98210",
+      "city": "Coimbatore",
+      "qualification": "12th Standard",
+      "target_programme": "Computer Science & Engineering",
+      "institution": "KAHE",
+      "referred_by": "P. Malathi",
+      "referred_by_role": "Telecaller",
+      "referral_date": "2026-05-04 14:30",
+      "referral_reason": "Student waiting for 12th PCM results. Father enquired about 50% merit scholarship and AI Lab...",
+      "priority": "High",
+      "status": "Pending",
+      "tab": "pending",
+      "marks": "570 / 600 (95.0%)",
+      "campus": "KAHE - Main Campus, Eachanari",
+      "current_stage": "Counselling",
+      "notes": "Awaiting marks verification sheet and scholarship slab confirmation.",
+      "session_outcome": null,
+      "counsellor": "Dr. K. Swaminathan",
+      "assigned_counsellor": "Dr. K. Swaminathan",
+      "user_id": 10
+    },
+    {
+      "id": "CQ-002",
+      "enquiry_id": "ENQ-2026-0105",
+      "student_name": "R. Pavithra",
+      "mobile": "+91 94861 55901",
+      "city": "Salem",
+      "qualification": "12th Standard",
+      "target_programme": "B.Sc Nursing",
+      "institution": "KAHE",
+      "referred_by": "K. Kavitha",
+      "referred_by_role": "Telecaller",
+      "referral_date": "2026-05-03 11:00",
+      "referral_reason": "95% marks in PCB. Student applied for B.Sc Nursing, seeking hostel reservation and clinical exposure...",
+      "priority": "Urgent",
+      "status": "In Progress",
+      "tab": "in_progress",
+      "marks": "570 / 600 (95.0%)",
+      "campus": "KAHE - Main Campus, Eachanari",
+      "current_stage": "Applied",
+      "notes": "Hostel room pre-reserved; clinical round orientation pending.",
+      "session_outcome": "Campus Visit Scheduled",
+      "counsellor": "Dr. K. Swaminathan",
+      "assigned_counsellor": "Dr. K. Swaminathan",
+      "user_id": 10
+    },
+    {
+      "id": "CQ-003",
+      "enquiry_id": "ENQ-2026-0115",
+      "student_name": "M. Rajesh",
+      "mobile": "+91 97892 44321",
+      "city": "Erode",
+      "qualification": "B.Sc CS",
+      "target_programme": "MCA",
+      "institution": "KAHE",
+      "referred_by": "P. Malathi",
+      "referred_by_role": "Telecaller",
+      "referral_date": "2026-05-01 10:15",
+      "referral_reason": "Direct merit evaluation completed. Spot admission offered and accepted with initial registration fee token.",
+      "priority": "Normal",
+      "status": "Completed",
+      "tab": "completed",
+      "marks": "82.5% CGPA",
+      "campus": "KAHE - Main Campus, Eachanari",
+      "current_stage": "Admitted",
+      "notes": "Token advance received. Original certificates submitted.",
+      "session_outcome": "Spot Provisional Admission Offered",
+      "counsellor": "S. Saravanan",
+      "assigned_counsellor": "S. Saravanan",
+      "user_id": 11
+    },
+    {
+      "id": "CQ-004",
+      "enquiry_id": "ENQ-2026-0108",
+      "student_name": "S. Ananya",
+      "mobile": "+91 98943 21098",
+      "city": "Tiruppur",
+      "qualification": "12th Standard",
+      "target_programme": "Bachelor of Pharmacy",
+      "institution": "KAHE",
+      "referred_by": "Direct Walk-in",
+      "referred_by_role": "Direct Campus Enquiry",
+      "referral_date": "2026-05-05 09:45",
+      "referral_reason": "Direct campus admissions counter inquiry for pharmacy lab facilities and fee break-up.",
+      "priority": "Normal",
+      "status": "Pending",
+      "tab": "direct",
+      "marks": "540 / 600 (90.0%)",
+      "campus": "KAHE - Main Campus, Eachanari",
+      "current_stage": "Counselling",
+      "notes": "Met with parents; reviewing scholarship slab based on PCB aggregate.",
+      "session_outcome": null,
+      "counsellor": "B. Priyadarshini",
+      "assigned_counsellor": "B. Priyadarshini",
+      "user_id": 12
+    }
+  ],
+  "analytics": {
+    "funnel": {
+      "total_referrals": 48,
+      "counselling_completed": 42,
+      "spot_offers": 28,
+      "confirmed_admitted": 19
+    },
+    "course_demand": [
+      { "course": "Computer Science & Engineering", "enquiries": 18, "admitted": 8 },
+      { "course": "B.Sc Nursing", "enquiries": 12, "admitted": 5 },
+      { "course": "Bachelor of Pharmacy", "enquiries": 9, "admitted": 3 },
+      { "course": "Artificial Intelligence & Data Science", "enquiries": 6, "admitted": 2 },
+      { "course": "MCA / MBA", "enquiries": 3, "admitted": 1 }
+    ],
+    "referral_breakdown": [
+      { "source": "Telecaller Referrals", "count": 28, "pct": "58.3%" },
+      { "source": "Direct Campus Walk-in", "count": 12, "pct": "25.0%" },
+      { "source": "Website Direct Enquiry", "count": 5, "pct": "10.4%" },
+      { "source": "Outreach & Education Fair", "count": 3, "pct": "6.3%" }
+    ]
+  }
+}
+

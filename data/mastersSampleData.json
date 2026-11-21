@@ -1,0 +1,495 @@
+{
+  "admission_stages": [
+    {
+      "id": "STG-01",
+      "name": "New Enquiry",
+      "code": "NEW",
+      "category": "Inbound Queue",
+      "sequence": 1,
+      "contacts_count": 4,
+      "badge_color": "bg-amber-100 text-amber-700",
+      "status": "Active"
+    },
+    {
+      "id": "STG-02",
+      "name": "Contacted",
+      "code": "CTC",
+      "category": "Telecalling Desk",
+      "sequence": 2,
+      "contacts_count": 8,
+      "badge_color": "bg-gray-100 text-gray-700",
+      "status": "Active"
+    },
+    {
+      "id": "STG-03",
+      "name": "Interested",
+      "code": "INT",
+      "category": "Telecalling Desk",
+      "sequence": 3,
+      "contacts_count": 6,
+      "badge_color": "bg-green-100 text-green-700",
+      "status": "Active"
+    },
+    {
+      "id": "STG-04",
+      "name": "Campus Visit Scheduled",
+      "code": "VIS",
+      "category": "On-Campus Desk",
+      "sequence": 4,
+      "contacts_count": 2,
+      "badge_color": "bg-purple-100 text-purple-700",
+      "status": "Active"
+    },
+    {
+      "id": "STG-05",
+      "name": "Counselling",
+      "code": "CNS",
+      "category": "Senior Counselling Desk",
+      "sequence": 5,
+      "contacts_count": 3,
+      "badge_color": "bg-blue-100 text-blue-700",
+      "status": "Active"
+    },
+    {
+      "id": "STG-06",
+      "name": "Applied",
+      "code": "APP",
+      "category": "Application Processing",
+      "sequence": 6,
+      "contacts_count": 2,
+      "badge_color": "bg-indigo-100 text-indigo-700",
+      "status": "Active"
+    },
+    {
+      "id": "STG-07",
+      "name": "Admitted",
+      "code": "ADM",
+      "category": "Admissions Finalized",
+      "sequence": 7,
+      "contacts_count": 1,
+      "badge_color": "bg-emerald-100 text-emerald-700",
+      "status": "Active"
+    },
+    {
+      "id": "STG-08",
+      "name": "Not Interested",
+      "code": "NIN",
+      "category": "Closed / Disqualified",
+      "sequence": 8,
+      "contacts_count": 1,
+      "badge_color": "bg-rose-100 text-rose-700",
+      "status": "Active"
+    }
+  ],
+  "institutions": [
+    {
+      "id": "INST-01",
+      "name": "Karpagam Academy of Higher Education",
+      "short_code": "KAHE",
+      "type": "Deemed-to-be University",
+      "campus": "Eachanari Campus, Pollachi Main Rd",
+      "total_programs": 48,
+      "status": "Active"
+    },
+    {
+      "id": "INST-02",
+      "name": "Karpagam College of Engineering",
+      "short_code": "KCE",
+      "type": "Autonomous Engineering Institution",
+      "campus": "Othakkalmandapam, Coimbatore",
+      "total_programs": 14,
+      "status": "Active"
+    },
+    {
+      "id": "INST-03",
+      "name": "Karpagam Institute of Technology",
+      "short_code": "KIT",
+      "type": "Affiliated Engineering College",
+      "campus": "Seerapalayam Village, Coimbatore",
+      "total_programs": 10,
+      "status": "Active"
+    },
+    {
+      "id": "INST-04",
+      "name": "Karpagam College of Pharmacy",
+      "short_code": "KCP",
+      "type": "Pharmacy Education & Research",
+      "campus": "Othakkalmandapam, Coimbatore",
+      "total_programs": 5,
+      "status": "Active"
+    },
+    {
+      "id": "INST-05",
+      "name": "Karpagam Nursing College",
+      "short_code": "KNC",
+      "type": "Nursing & Allied Health",
+      "campus": "Othakkalmandapam, Coimbatore",
+      "total_programs": 4,
+      "status": "Active"
+    },
+    {
+      "id": "INST-06",
+      "name": "Karpagam Faculty of Medical Sciences",
+      "short_code": "KFMSR",
+      "type": "Medical College & Research Institute",
+      "campus": "Othakkalmandapam, Coimbatore",
+      "total_programs": 3,
+      "status": "Active"
+    }
+  ],
+  "courses": [
+    {
+      "id": "CRS-01",
+      "name": "B.E. Computer Science & Engineering",
+      "code": "BE-CSE",
+      "degree_level": "Undergraduate (UG)",
+      "institution": "KAHE / KCE",
+      "duration": "4 Years",
+      "total_intake": 240,
+      "status": "Active"
+    },
+    {
+      "id": "CRS-02",
+      "name": "B.Tech Artificial Intelligence & Data Science",
+      "code": "BTECH-AIDS",
+      "degree_level": "Undergraduate (UG)",
+      "institution": "KIT",
+      "duration": "4 Years",
+      "total_intake": 120,
+      "status": "Active"
+    },
+    {
+      "id": "CRS-03",
+      "name": "Bachelor of Pharmacy (B.Pharm)",
+      "code": "BPHARM",
+      "degree_level": "Undergraduate (UG)",
+      "institution": "Karpagam College of Pharmacy",
+      "duration": "4 Years",
+      "total_intake": 100,
+      "status": "Active"
+    },
+    {
+      "id": "CRS-04",
+      "name": "B.Sc Nursing",
+      "code": "BSC-NUR",
+      "degree_level": "Undergraduate (UG)",
+      "institution": "Karpagam Nursing College",
+      "duration": "4 Years",
+      "total_intake": 60,
+      "status": "Active"
+    },
+    {
+      "id": "CRS-05",
+      "name": "Master of Business Administration (MBA)",
+      "code": "MBA",
+      "degree_level": "Postgraduate (PG)",
+      "institution": "KAHE",
+      "duration": "2 Years",
+      "total_intake": 180,
+      "status": "Active"
+    },
+    {
+      "id": "CRS-06",
+      "name": "B.Com Professional Accounting (PA)",
+      "code": "BCOM-PA",
+      "degree_level": "Undergraduate (UG)",
+      "institution": "KAHE",
+      "duration": "3 Years",
+      "total_intake": 120,
+      "status": "Active"
+    },
+    {
+      "id": "CRS-07",
+      "name": "Bachelor of Medicine & Bachelor of Surgery (MBBS)",
+      "code": "MBBS",
+      "degree_level": "Undergraduate (UG)",
+      "institution": "Karpagam Faculty of Medical Sciences",
+      "duration": "5.5 Years",
+      "total_intake": 150,
+      "status": "Active"
+    },
+    {
+      "id": "CRS-08",
+      "name": "M.Sc Biotechnology",
+      "code": "MSC-BIOTECH",
+      "degree_level": "Postgraduate (PG)",
+      "institution": "KAHE",
+      "duration": "2 Years",
+      "total_intake": 40,
+      "status": "Active"
+    }
+  ],
+  "academic_years": [
+    {
+      "id": "AY-01",
+      "year_name": "Academic Year 2026–27",
+      "code": "AY-2026-27",
+      "cycle_status": "Current Open Intake",
+      "start_date": "2026-04-01",
+      "end_date": "2027-03-31",
+      "is_current": true,
+      "status": "Active"
+    },
+    {
+      "id": "AY-02",
+      "year_name": "Academic Year 2025–26",
+      "code": "AY-2025-26",
+      "cycle_status": "Admissions Closed",
+      "start_date": "2025-04-01",
+      "end_date": "2026-03-31",
+      "is_current": false,
+      "status": "Active"
+    },
+    {
+      "id": "AY-03",
+      "year_name": "Academic Year 2024–25",
+      "code": "AY-2024-25",
+      "cycle_status": "Archived Batch",
+      "start_date": "2024-04-01",
+      "end_date": "2025-03-31",
+      "is_current": false,
+      "status": "Inactive"
+    },
+    {
+      "id": "AY-04",
+      "year_name": "Academic Year 2027–28",
+      "code": "AY-2027-28",
+      "cycle_status": "Upcoming Batch",
+      "start_date": "2027-04-01",
+      "end_date": "2028-03-31",
+      "is_current": false,
+      "status": "Inactive"
+    }
+  ],
+  "whatsapp_templates": [
+    {
+      "id": "WTP-01",
+      "title": "Welcome & Digital Brochure",
+      "code": "tpl_welcome_brochure",
+      "category": "Inbound Lead",
+      "trigger_stage": "New Enquiry",
+      "language": "English / Tamil",
+      "usage_count": 342,
+      "status": "Active"
+    },
+    {
+      "id": "WTP-02",
+      "title": "Campus Visit Invitation & Direction Map",
+      "code": "tpl_campus_visit_invite",
+      "category": "Campus Experience",
+      "trigger_stage": "Interested",
+      "language": "English",
+      "usage_count": 189,
+      "status": "Active"
+    },
+    {
+      "id": "WTP-03",
+      "title": "Merit Scholarship & Fee Concession",
+      "code": "tpl_scholarship_calc",
+      "category": "Counselling",
+      "trigger_stage": "Counselling",
+      "language": "English",
+      "usage_count": 94,
+      "status": "Active"
+    },
+    {
+      "id": "WTP-04",
+      "title": "Provisional Admission Confirmation",
+      "code": "tpl_provisional_admit",
+      "category": "Admissions",
+      "trigger_stage": "Applied",
+      "language": "English",
+      "usage_count": 52,
+      "status": "Active"
+    },
+    {
+      "id": "WTP-05",
+      "title": "Callback Follow-up Reminder",
+      "code": "tpl_callback_reminder",
+      "category": "Telecalling",
+      "trigger_stage": "Contacted",
+      "language": "English / Tamil",
+      "usage_count": 218,
+      "status": "Active"
+    },
+    {
+      "id": "WTP-06",
+      "title": "Document Verification Checklist",
+      "code": "tpl_doc_checklist",
+      "category": "Onboarding",
+      "trigger_stage": "Admitted",
+      "language": "English",
+      "usage_count": 41,
+      "status": "Active"
+    }
+  ],
+  "qualifications": [
+    {
+      "id": "QLF-01",
+      "name": "12th Standard / Higher Secondary (HSC)",
+      "stream_type": "State Board / Matriculation",
+      "target_level": "Undergraduate (UG)",
+      "min_eligibility": "50% Aggregate",
+      "students_registered": 18,
+      "status": "Active"
+    },
+    {
+      "id": "QLF-02",
+      "name": "CBSE / ICSE Senior Secondary (12th)",
+      "stream_type": "Central Board",
+      "target_level": "Undergraduate (UG)",
+      "min_eligibility": "50% Aggregate",
+      "students_registered": 3,
+      "status": "Active"
+    },
+    {
+      "id": "QLF-03",
+      "name": "Diploma (Polytechnic)",
+      "stream_type": "Technical Lateral Entry",
+      "target_level": "Direct 2nd Year B.E.",
+      "min_eligibility": "55% Marks",
+      "students_registered": 2,
+      "status": "Active"
+    },
+    {
+      "id": "QLF-04",
+      "name": "Undergraduate Degree (UG Completed)",
+      "stream_type": "B.Com / B.Sc / BBA / B.E.",
+      "target_level": "Postgraduate (PG / MBA)",
+      "min_eligibility": "50% in UG",
+      "students_registered": 1,
+      "status": "Active"
+    },
+    {
+      "id": "QLF-05",
+      "name": "10th Standard / SSLC",
+      "stream_type": "State / CBSE",
+      "target_level": "Polytechnic / Higher Secondary",
+      "min_eligibility": "Pass Certificate",
+      "students_registered": 0,
+      "status": "Active"
+    }
+  ],
+  "call_outcomes": [
+    {
+      "id": "OUT-01",
+      "outcome_name": "Interested - Requesting Campus Visit",
+      "sentiment": "Positive",
+      "suggested_next_action": "Schedule Campus Tour & Lab Demo",
+      "requires_callback": true,
+      "priority": "High",
+      "status": "Active"
+    },
+    {
+      "id": "OUT-02",
+      "outcome_name": "Interested - Fee & Scholarship Inquiry",
+      "sentiment": "Positive",
+      "suggested_next_action": "Share Fee Concession Chart via WhatsApp",
+      "requires_callback": true,
+      "priority": "High",
+      "status": "Active"
+    },
+    {
+      "id": "OUT-03",
+      "outcome_name": "Follow-up Callback Scheduled",
+      "sentiment": "Follow-up",
+      "suggested_next_action": "Call student at preferred date/time",
+      "requires_callback": true,
+      "priority": "Medium",
+      "status": "Active"
+    },
+    {
+      "id": "OUT-04",
+      "outcome_name": "Ringing No Response (RNR)",
+      "sentiment": "Neutral",
+      "suggested_next_action": "Re-attempt call after 4 hours or send WhatsApp",
+      "requires_callback": true,
+      "priority": "Normal",
+      "status": "Active"
+    },
+    {
+      "id": "OUT-05",
+      "outcome_name": "Switch Off / Not Reachable",
+      "sentiment": "Neutral",
+      "suggested_next_action": "Schedule re-dial tomorrow morning",
+      "requires_callback": true,
+      "priority": "Normal",
+      "status": "Active"
+    },
+    {
+      "id": "OUT-06",
+      "outcome_name": "Already Joined Another Institution",
+      "sentiment": "Disqualified",
+      "suggested_next_action": "Mark record as closed / not interested",
+      "requires_callback": false,
+      "priority": "Low",
+      "status": "Active"
+    },
+    {
+      "id": "OUT-07",
+      "outcome_name": "Not Interested / Discontinued Studies",
+      "sentiment": "Disqualified",
+      "suggested_next_action": "Archive enquiry from telecalling pool",
+      "requires_callback": false,
+      "priority": "Low",
+      "status": "Active"
+    }
+  ],
+  "reference_types": [
+    {
+      "id": "REF-01",
+      "source_name": "Website Online Enquiry Form",
+      "channel": "Digital / Organic",
+      "tracking_tag": "web_direct_ay2026",
+      "cost_per_lead": "₹0 (Organic)",
+      "total_leads": 12,
+      "status": "Active"
+    },
+    {
+      "id": "REF-02",
+      "source_name": "Education Fair & Career Expo",
+      "channel": "Event / On-Ground",
+      "tracking_tag": "cbe_mega_fair_2026",
+      "cost_per_lead": "₹450 / Lead",
+      "total_leads": 6,
+      "status": "Active"
+    },
+    {
+      "id": "REF-03",
+      "source_name": "Social Media (Instagram / Meta Ads)",
+      "channel": "Paid Digital Campaign",
+      "tracking_tag": "meta_leadgen_may",
+      "cost_per_lead": "₹280 / Lead",
+      "total_leads": 3,
+      "status": "Active"
+    },
+    {
+      "id": "REF-04",
+      "source_name": "Sibling / Family Referral",
+      "channel": "Referral Program",
+      "tracking_tag": "sibling_concession_scheme",
+      "cost_per_lead": "₹0 (Internal Referral)",
+      "total_leads": 2,
+      "status": "Active"
+    },
+    {
+      "id": "REF-05",
+      "source_name": "School Outreach / Campus Visit Drive",
+      "channel": "Institutional Outreach",
+      "tracking_tag": "school_seminar_2026",
+      "cost_per_lead": "₹150 / Lead",
+      "total_leads": 1,
+      "status": "Active"
+    },
+    {
+      "id": "REF-06",
+      "source_name": "Google Ads (Search & Discovery)",
+      "channel": "Paid Digital Campaign",
+      "tracking_tag": "google_search_engineering",
+      "cost_per_lead": "₹320 / Lead",
+      "total_leads": 0,
+      "status": "Active"
+    }
+  ]
+}
+

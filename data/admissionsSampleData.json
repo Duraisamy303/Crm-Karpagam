@@ -1,0 +1,167 @@
+[
+  {
+    "id": "ENQ-2026-0101",
+    "student_name": "K. Vignesh",
+    "badge": "",
+    "enquiry_id": "ENQ-2026-0101",
+    "qualification": "12th Standard",
+    "phone_number": "+91 98421 98210",
+    "parent_phone": "-",
+    "city": "Coimbatore",
+    "area": "Gandhipuram",
+    "target_course": "Computer Science & Engineering",
+    "institution": "KAHE",
+    "assigned_to": "P. Malathi",
+    "assigned_role": "Telecaller",
+    "status": "Contacted",
+    "categories": [
+      "total_contacts",
+      "assigned",
+      "follow_ups"
+    ]
+  },
+  {
+    "id": "ENQ-2026-0102",
+    "student_name": "S. Priya",
+    "badge": "Sibling",
+    "enquiry_id": "ENQ-2026-0102",
+    "qualification": "12th Standard",
+    "phone_number": "+91 97890 23412",
+    "parent_phone": "+91 98421 44552",
+    "city": "Tiruppur",
+    "area": "Avinashi Road",
+    "target_course": "Bachelor of Pharmacy",
+    "institution": "Karpagam College of Pharmacy",
+    "assigned_to": "P. Malathi",
+    "status": "Contacted",
+    "categories": [
+      "total_contacts",
+      "assigned",
+      "interested"
+    ]
+  },
+  {
+    "id": "ENQ-2026-0103",
+    "student_name": "S. Hariharan",
+    "badge": "Sibling",
+    "enquiry_id": "ENQ-2026-0103",
+    "qualification": "UG Completed",
+    "phone_number": "+91 97890 23419",
+    "parent_phone": "+91 98421 44552",
+    "city": "Tiruppur",
+    "area": "Avinashi Road",
+    "target_course": "Business Administration",
+    "institution": "KAHE",
+    "assigned_to": "S. Ramesh Kumar",
+    "assigned_role": "Telecaller",
+    "status": "Interested",
+    "categories": [
+      "total_contacts",
+      "assigned",
+      "interested"
+    ]
+  },
+  {
+    "id": "ENQ-2026-0104",
+    "student_name": "M. Rajesh",
+    "badge": "",
+    "enquiry_id": "ENQ-2026-0104",
+    "qualification": "12th Standard",
+    "phone_number": "+91 98428 55410",
+    "parent_phone": "+91 94430 88219",
+    "city": "Erode",
+    "area": "Perundurai Road",
+    "target_course": "Computer Science & Engineering",
+    "institution": "KCE",
+    "assigned_to": "Dr. K. Swaminathan",
+    "assigned_role": "Counsellor",
+    "status": "Contacted",
+    "categories": [
+      "total_contacts",
+      "assigned",
+      "follow_ups"
+    ]
+  },
+  {
+    "id": "ENQ-2026-0105",
+    "student_name": "R. Pavithra",
+    "badge": "",
+    "enquiry_id": "ENQ-2026-0105",
+    "qualification": "12th Standard",
+    "phone_number": "+91 96291 33401",
+    "parent_phone": "+91 97880 11922",
+    "city": "Salem",
+    "area": "Fairlands",
+    "target_course": "B.Sc Nursing",
+    "institution": "Karpagam College of Pharmacy",
+    "assigned_to": "B. Priyadarshini",
+    "assigned_role": "Counsellor",
+    "status": "Interested",
+    "categories": [
+      "total_contacts",
+      "assigned",
+      "interested"
+    ]
+  },
+  {
+    "id": "ENQ-2026-0106",
+    "student_name": "A. Karthikeyan",
+    "badge": "",
+    "enquiry_id": "ENQ-2026-0106",
+    "qualification": "12th Standard",
+    "phone_number": "+91 96552 14320",
+    "parent_phone": "-",
+    "city": "Pollachi",
+    "area": "Town Hall",
+    "target_course": "Artificial Intelligence & Data Science",
+    "institution": "KIT",
+    "assigned_to": "K. Kavitha",
+    "assigned_role": "Telecaller",
+    "status": "Applied",
+    "categories": [
+      "total_contacts",
+      "assigned"
+    ]
+  },
+  {
+    "id": "ENQ-2026-0107",
+    "student_name": "S. Ananya",
+    "badge": "",
+    "enquiry_id": "ENQ-2026-0107",
+    "qualification": "12th Standard",
+    "phone_number": "+91 94432 99018",
+    "parent_phone": "+91 98421 88301",
+    "city": "Coimbatore",
+    "area": "RS Puram",
+    "target_course": "Biomedical Engineering",
+    "institution": "KAHE",
+    "assigned_to": "Dr. K. Swaminathan",
+    "assigned_role": "Counsellor",
+    "status": "Interested",
+    "categories": [
+      "total_contacts",
+      "assigned",
+      "interested"
+    ]
+  },
+  {
+    "id": "ENQ-2026-0108",
+    "student_name": "N. Saran",
+    "badge": "",
+    "enquiry_id": "ENQ-2026-0108",
+    "qualification": "Diploma Completed",
+    "phone_number": "+91 97880 77612",
+    "parent_phone": "-",
+    "city": "Coimbatore",
+    "area": "Saravanampatti",
+    "target_course": "Mechanical Engineering (Lateral)",
+    "institution": "KCE",
+    "assigned_to": "M. Senthil Nathan",
+    "assigned_role": "Telecaller",
+    "status": "Contacted",
+    "categories": [
+      "total_contacts",
+      "assigned"
+    ]
+  }
+]
