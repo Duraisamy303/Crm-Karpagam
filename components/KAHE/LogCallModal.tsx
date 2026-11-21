@@ -11,6 +11,7 @@ export interface LogCallModalProps {
     onSaveCall?: (callData: any) => void;
 }
 
+
 const outcomeActions: Record<string, string> = {
     Interested: 'Save admission interest & follow-up',
     'Call Later': 'Schedule callback at student requested time',
